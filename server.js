@@ -14,7 +14,7 @@ var userList=[
 ];
 
 const mainPage=(req,res)=>{
-    res.sendFile(path.join(__dirname,'textbook/build/index.html'));
+    res.sendFile(path.join(__dirname,'./textbook/build/index.html'));
 }
 
 const listUsers=(req,res)=>{
